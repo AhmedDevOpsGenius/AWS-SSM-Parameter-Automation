@@ -1,0 +1,60 @@
+{
+  "Red": {
+    "call": [
+      {
+        "Name": "variabletest",
+        "Value": "value1",
+        "Type": "String"
+      }
+    ],
+    "caller_spa": [
+      {
+        "Name": "variabletest1",
+        "Value": "jitsi.example.com",
+        "Type": "String"
+      }
+    ]
+  },
+  "Yellow": {
+    "callscreen": [
+      {
+        "Name": "variabletest2",
+        "Value": "US",
+        "Type": "String"
+      }
+    ]
+  },
+  "black": {
+    "caller_spa": [
+      {
+        "Name": "variabletest3",
+        "Value": "jitsi.example.com",
+        "Type": "String"
+      },
+      {
+        "Name": "variabletest4",
+        "Value": "jitsi.example.com",
+        "Type": "String"
+      }
+    ],
+    "callscreen": [
+      {
+        "Name": "variabletest5",
+        "Value": "s3-black-callscreen-media",
+        "Type": "String"
+      }
+    ],
+    "callstate": [
+      {
+        "Name": "variabletest6",
+        "Value": "30",
+        "Type": "String"
+      },
+      {
+        "Name": "CallInitiatingWait1",
+        "Value": "USValue",
+        "Type": "String"
+      }
+    ]
+  }
+}
