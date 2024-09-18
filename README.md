@@ -1,6 +1,7 @@
 # AWS-SSM-Parameter-Automation
 This repository automates fetching AWS SSM parameters using scripts (Bash/PowerShell), converts them into JSON, and uses Terraform to create or update parameters in AWS, streamlining parameter management.
 
+
 **Table of Contents**
 
 •	Overview
@@ -31,6 +32,7 @@ Bash/PowerShell Scripts: Fetch SSM parameters from AWS and convert them into a J
 
 Terraform: Use the JSON file to create or update SSM parameters in AWS.
 
+
 **Features**
 
 Fetch AWS SSM parameters using either Bash or PowerShell scripts.
@@ -40,6 +42,7 @@ Automatically convert the fetched parameters into JSON format.
 Use Terraform to manage and apply these parameters back to AWS SSM, supporting automated infrastructure management.
 
 
+
 **Prerequisites**
 
 	Terraform installed on your local machine.
@@ -47,6 +50,7 @@ Use Terraform to manage and apply these parameters back to AWS SSM, supporting a
 	AWS CLI configured with proper access rights to SSM parameters.
 
 	Basic knowledge of AWS, SSM, and Terraform.
+
 
 **Installation**
 
@@ -59,7 +63,9 @@ cd AWS-SSM-Parameter-Automation
 Install AWS CLI and configure your credentials:
 
 aws configure
+
 Ensure you have Terraform installed.
+
 
 
 **Usage**
@@ -90,6 +96,7 @@ terraform apply
 
 Terraform will create or update the SSM parameters based on the JSON file.
 
+
 **Benefits**
 
 **Automation**: Simplifies the process of managing AWS SSM parameters by automating retrieval, conversion, and deployment.
@@ -98,9 +105,11 @@ Terraform will create or update the SSM parameters based on the JSON file.
 
 **Cross-Platform:** Supports both Bash and PowerShell environments for flexibility in different systems.
 
+
 **Contributing**
 
 Feel free to open issues or submit pull requests if you'd like to improve the project.
+
 
 **License**
 
